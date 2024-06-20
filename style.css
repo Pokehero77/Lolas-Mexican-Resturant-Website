@@ -7,12 +7,7 @@ body {
     font-family: 'open sans', sans-serif;
 }
 
-h1,
-h2, 
-h3, 
-h4,
-h5, 
-h6 {
+h1, h2, h3, h4, h5, h6 {
     color: #454545;
     font-family: 'Nunito', sans-serif;
 }
@@ -24,17 +19,12 @@ a {
     transition: .3s;
 }
 
-a:hover,
-a:active,
-a:focus {
+a:hover, a:active, a:focus {
     color: #63be5e;
     outline: none;
     text-decoration: none;
 }
 
-.btncenter{
-    margin: 0 auto; 
-}
 
 .btn.custom-btn {
     padding: 12px 25px;
@@ -42,7 +32,6 @@ a:focus {
     font-size: 20px;
     font-weight: 600;
     color: #ffffff;
-    /* b82c2d */
     background: #b82c2d;
     border: 2px solid #b82c2d;
     border-radius: 5px;
@@ -54,15 +43,8 @@ a:focus {
     background: transparent;
 }
 
-.btn.custom-btn:focus,
-.form-control:focus,
-.custom-select:focus {
-    box-shadow: none;
-}
-
 .container-fluid {
     max-width: 1366px;
-    
 }
 
 .back-to-top {
@@ -122,7 +104,6 @@ a:focus {
     font-weight: 700;
     font-family: 'Nunito', sans-serif;
     transition: .5s;
-    
 }
 
 .navbar .navbar-brand span {
@@ -157,16 +138,16 @@ a:focus {
         background: transparent !important;
         z-index: 9;
     }
-    
+
     .navbar.nav-sticky {
         padding: 10px 60px;
         background: #ffffff !important;
     }
-    
+
     .navbar .navbar-brand {
         color: #fcbe6b;
     }
-    
+
     .navbar.nav-sticky .navbar-brand {
         color: #fcbe6b;
     }
@@ -179,7 +160,7 @@ a:focus {
         font-size: 18px;
         font-weight: 600;
     }
-    
+
     .navbar-light.nav-sticky .navbar-nav .nav-link,
     .navbar-light.nav-sticky .navbar-nav .nav-link:focus {
         color: #666666;
@@ -189,35 +170,36 @@ a:focus {
     .navbar-light .navbar-nav .nav-link.active {
         color: #b82c2d;
     }
-    
+
     .navbar-light.nav-sticky .navbar-nav .nav-link:hover,
     .navbar-light.nav-sticky .navbar-nav .nav-link.active {
         color: #b82c2d;
     }
 }
 
-@media (max-width: 991.98px) {   
+@media (max-width: 991.98px) {
     .navbar {
         padding: 15px;
         background: #ffffff !important;
     }
-    
+
     .navbar .navbar-brand {
         color: #fcbe6b;
     }
-    
+
     .navbar .navbar-nav {
         margin-top: 15px;
     }
-    
+
     .navbar a.nav-link {
         padding: 5px;
     }
-    
+
     .navbar .dropdown-menu {
         box-shadow: none;
     }
 }
+
 
 /*******************************/
 /********** Hero CSS ***********/
