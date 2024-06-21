@@ -201,6 +201,40 @@ a:hover, a:active, a:focus {
 }
 
 /*******************************/
+/********** Hero CSS ***********/
+/*******************************/
+.carousel .owl-carousel .item {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.carousel-caption {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    width: calc(100% - 40px); /* Ensure the caption doesn't overflow */
+    box-sizing: border-box; /* Include padding in width calculation */
+}
+
+.owl-carousel .owl-stage-outer {
+    position: relative;
+}
+
+.owl-carousel .owl-item {
+    display: none;
+}
+
+.owl-carousel .owl-item.active {
+    display: block;
+}
+
+
+/*******************************/
 /******* Page Header CSS *******/
 /*******************************/
 .page-header {
