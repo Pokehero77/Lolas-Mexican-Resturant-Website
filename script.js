@@ -13,7 +13,19 @@
         $('html, body').animate({scrollTop: 0}, 1500, 'easeInOutExpo');
         return false;
     });
-    
+
+      $(document).ready(function() {
+    $(".carousel .owl-carousel").owlCarousel({
+        autoplay: true,
+        animateOut: 'fadeOut',
+        animateIn: 'fadeIn',
+        items: 1,
+        smartSpeed: 300,
+        dots: false,
+        loop: true,
+        nav: false
+    });
+});
     
     // Sticky Navbar
     $(window).scroll(function () {
