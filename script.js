@@ -44,6 +44,7 @@
 
     
     // Main carousel
+    $(document).ready(function() {
     $(".carousel .owl-carousel").owlCarousel({
         autoplay: true,
         animateOut: 'fadeOut',
@@ -52,8 +53,9 @@
         smartSpeed: 300,
         dots: false,
         loop: true,
-        nav : false
+        nav: false
     });
+});
     
     // Modal Video
     $(document).ready(function () {
