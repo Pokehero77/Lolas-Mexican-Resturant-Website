@@ -42,21 +42,6 @@
         $(window).resize(toggleNavbarMethod);
     });
 
-    
-    // Main carousel
-    $(document).ready(function() {
-    $(".carousel .owl-carousel").owlCarousel({
-        autoplay: true,
-        animateOut: 'fadeOut',
-        animateIn: 'fadeIn',
-        items: 1,
-        smartSpeed: 300,
-        dots: false,
-        loop: true,
-        nav: false
-    });
-});
-    
     // Modal Video
     $(document).ready(function () {
         var $videoSrc;
