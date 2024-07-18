@@ -74,15 +74,14 @@ body {
   outline: 0 !important;
 }
 
-/* Custom styles for the Regular Menu section */
 #regular-menu .card {
   margin-bottom: 20px;
   width: 100%; /* Ensure full width in smaller screens */
-  max-width: 300px; /* Set the maximum width of each card */
+  max-width: 200px; /* Adjust the maximum width of each card to fit 5 items */
 }
 
 #regular-menu .card-body {
-  padding: 20px; /* Reduce padding inside the card */
+  padding: 10px; /* Reduce padding inside the card */
 }
 
 /* Custom styles for the toggle button */
@@ -91,7 +90,6 @@ body {
   font-size: 1.5rem;   /* Increase font size */
   border-radius: 10px; /* Optional: Adjust border radius for rounded corners */
 }
-
 hr {
   box-sizing: content-box;
   height: 0;
