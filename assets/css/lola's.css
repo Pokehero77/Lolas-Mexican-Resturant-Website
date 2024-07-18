@@ -76,7 +76,7 @@ body {
 
 /* Custom styles for the Regular Menu section */
 #regular-menu .card {
-  margin-bottom: 5px;
+  margin-bottom: 1px;
   width: 100%; /* Ensure full width in smaller screens */
   max-width: 300px; /* Set the maximum width of each card */
 }
