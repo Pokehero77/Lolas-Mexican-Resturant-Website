@@ -74,6 +74,16 @@ body {
   outline: 0 !important;
 }
 
+/* Custom styles for the Regular Menu section */
+#regular-menu .card {
+  margin-bottom: 20px;
+}
+
+#regular-menu .card-body {
+  padding: 20px;
+}
+
+
 hr {
   box-sizing: content-box;
   height: 0;
