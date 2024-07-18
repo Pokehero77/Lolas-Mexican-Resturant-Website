@@ -82,7 +82,7 @@ body {
 }
 
 #regular-menu .card-body {
-  padding: 10px; /* Reduce padding inside the card */
+  padding: 5px; /* Reduce padding inside the card */
 }
 
 /* Custom styles for the toggle button */
