@@ -77,7 +77,7 @@ body {
 #regular-menu .card {
   margin-bottom: 20px;
   width: 100%; /* Ensure full width in smaller screens */
-  max-width: 200px; /* Adjust the maximum width of each card to fit 5 items */
+  max-width: 220px; /* Adjust the maximum width of each card to fit 5 items */
 }
 
 #regular-menu .card-body {
