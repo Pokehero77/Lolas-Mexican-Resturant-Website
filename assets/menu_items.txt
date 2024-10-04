@@ -1,0 +1,172 @@
+Appetizers:
+  Queso Fundido: 6.99
+  Chicken Nuggets: 4.19
+  French Fries: 3.99
+  Cheese Fries: 5.99
+  Bean Dip: 4.99
+  Sour Cream: 1.50
+  Queso Dip: 4.19
+  Seafood Dip: 8.79
+  Spinach Dip: 5.89
+  Guacamole Dip: 4.50
+  PicaGuaca: 6.99
+  Pico De Gallo: 2.89
+  Shredded Cheese: 2.79
+  Jalapeño Slices: 2.09
+
+Salads:
+  Chicken Salad: 11.99
+  Shrimp Salad: 13.29
+  Ensalada Cancún: 11.99
+  Guacamole Salad: 6.69
+  Fajita Taco Salad: 10.99
+  Tilapia Salad: 15.99
+  Shrimp Taco Salad: 10.99
+
+Nachos:
+  Texanos: 13.99
+  Supremos: 11.95
+  Nachos con Carne: 8.99
+  Nachos con Pollo: 8.99
+  Nachos Con Frijol: 7.69
+  Nachos Con Queso: 7.59
+  Nachos Con Vegetales: 9.69
+  Fajita Nachos: 12.69
+  Nachos Santa Fe: 13.99
+  Nachos con Chorizo: 10.49
+  Nachos Camarón: 13.99
+
+Beef
+  Steak Ranchero: 19.99
+  Steak a Lola's: 22.49
+  Carne Asada: 15.99
+  El Paso: 13.99
+  Carne en su Jugo: 16.29
+  Tacos de Carne Asada: 13.29
+  Tacos a la Diabla: 13.69
+  Birria Tacos: 13.79
+  Steak Azteca: 20.99
+
+Chicken
+  Pollo Ranchero: 13.49
+  Pollo Sinaloa: 13.49
+  Pollo Michoacano: 14.49
+  Pollo a la Parrilla: 13.49
+  Pollo Feliz: 12.99
+  A.C.P.: 10.49
+  Pollo con Mole: 13.49
+  Chori Pollo: 13.69
+  Tacos de Pollo Asado: 13.49
+  Tacos de Tinga: 13.49
+  Chori Tacos: 13.69
+
+Pork
+  Carnitas: 14.69
+  Tacos de Carnitas: 13.69
+  Tacos al Pastor: 13.69
+
+Mixto
+  Casuelon: 15.99
+  A.C. Texano: 13.69
+  Molcajete Mar y Tierra: 25.99
+  Parrillada Mixta: 25.99
+
+Burrito Lovers:
+  Burrito Grande: 11.79
+  Burrito California: 11.79
+  Burrito a la Mexicana: 13.79
+  Burrito Roqueta: 10.49
+  Steak and Cheese Burrito: 10.49
+  Burrito Colorado: 10.49
+  Burrito Verde: 10.49
+  Burritos Deluxe: 10.69
+  Burrito Fiesta: 10.99
+  Burrito Fajita: 11.39
+ 
+Chimichangas:
+  Shredded Chicken, Ground Beef, Beef Tips: 8.79 / 11.59
+  Grilled Chicken: 9.19 / 12.59
+  Steak Strips: 9.19 / 12.59
+  Vegetables: 9.19 / 12.59
+  Camaron: 9.99 / 13.59
+
+Mix del Mar:
+  Arroz con Mariscos: 15.49
+  Mariscos Gobernador: 15.99
+  Seafood Taco Salad: 12.49
+
+Quesadillas:
+  Fajita Quesadilla: 11.79
+  Texas Fajita Quesadilla: 13.29
+  Shrimp Fajita Quesadilla: 14.99
+  Shredded Chicken, Ground Beef, Beef Tips, Shredded Beef, or Spinach: 10.49
+  Beans: 9.09
+  Grilled Steak Strips: 10.99
+  Grilled Chicken Strips: 10.99
+  Grilled Shrimp: 12.75
+  Grilled Vegetables: 9.99
+  Sauteeed Mushrooms: 9.99
+
+Seafood:
+  Plato Veracruz: 15.99
+  Camarón Pacífico: 15.99
+  Camarón Fundido: 15.99
+  Camarón a la Diabla: 15.99
+  Ceviche de Camarón: 14.49
+  A.C.C.: 13.89
+  Coctel de Camarón: 14.99
+  Tacos de Camarón: 12.49
+  Camarón El Presidente: 15.99
+  Filete Vallarta: 14.49
+  Ceviche de Pescado: 12.99
+  Tacos de Pescado: 13.69
+  Mojarra Frita: 15.49
+  Camarones al Mojo de Ajo: 15.49
+
+Lola's Specials:
+  Chilaquiles Mexicanos: 11.49
+  Taquitos Mexicanos: 11.49
+
+Fajitas:
+  Chicken: 13.99 / 21.99
+  Steak: 13.99 / 21.99
+  Mixed: 14.29 / 24.29
+  Texas: 15.29 / 26.79
+  Camarón: 16.69 / 26.99
+  Vegetables: 12.99 / 20.99
+  Del Mar: 19.29 / 33.69
+
+Enchiladas:
+  Enchiladas Rancheras: 12.29
+  Enchiladas Supremas: 12.29
+  Enchiladas Mexicanas: 12.49
+  Enchiladas Verdes: 10.69
+  Enchiladas con Mole: 10.69
+
+Kids Menu
+  Burrito and Taco: 5.89
+  Enchilada: 5.89
+  Taco and Enchilada: 5.89
+  Taco, Rice, and Beans: 5.89
+  Cheese Quesadilla: 5.89
+  Chicken Nuggets: 5.89
+  Cheeseburger: 5.99
+  Cheese Pizza with a fruit cup: 5.89
+  Macaroni and Cheese with a fruit cup: 5.89
+  Mini A.C.P: 6.69
+
+Side Orders:
+  Rice: 3.89
+  Cheese Rice: 5.79
+  Beans: 3.89
+  Rice and Beans: 5.09
+  Whole Black Beans: 3.89
+  Tortillas: 1.69
+  Grilled Vegetables: 3.99
+  Steamed Vegetables: 3.99
+  Nopalitos: 4.29
+  Tamales: 3.89
+  Chile Rellenos: 4.19
+  Tostadas: 3.99
+  Beef or Chicken: 3.79
+  Shrimp: 5.99
