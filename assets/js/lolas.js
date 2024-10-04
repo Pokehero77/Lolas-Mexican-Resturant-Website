@@ -226,6 +226,49 @@ $(document).ready(function(){
     });
 });
 
+const appetizerContainer = document.getElementById('appetizer-container');
+const saladContainer = document.getElementById('salad-container');
+const nachosContainer = document.getElementById('nachos-container');
+const beefContainer = document.getElementById('beef-container');
+const chickenContainer = document.getElementById('chicken-container');
+const porkContainer = document.getElementById('pork-container');
+const mixtoContainer = document.getElementById('mixto-container');
+const burritoLoversContainer = document.getElementById('burrito-lovers-container');
+const chimichangasContainer = document.getElementById('chimichangas-container');
+const mixDelMarContainer = document.getElementById('mix-del-mar-container');
+const quesadillaContainer = document.getElementById('quesadilla-container');
+const seafoodContainer = document.getElementById('seafood-container');
+const lolasSpecialsContainer = document.getElementById('lolas-specials-container');
+const fajitasContainer = document.getElementById('fajitas-container');
+const enchiladasContainer = document.getElementById('enchiladas-container');
+const kidsMenuContainer = document.getElementById('kids-menu-container');
+const sideOrdersContainer = document.getElementById('side-orders-container');
+
+
+function createCardHTML(item) {
+    return `
+        <div class="col-md-2">
+            <div class="card bg-transparent border my-3 my-md-0">
+                <div class="card-body">
+                    <h2 class="text-center mb-4"><a href="#" class="badge badge-primary">${item.price}</a></h2>
+                    <h4 class="pt20 pb20">${item.name}</h4>
+                </div>
+            </div>
+        </div>
+    `;
+}
+
+function populateSection(container, items) {
+    items.forEach(item => {
+        container.innerHTML += createCardHTML(item); // Use the new function to create card HTML
+    });
+}
+
+Object.keys(menuItems).forEach(category => {
+    const container = document.getElementById(`${category}-container`);
+    populateSection(container, menuItems[category]);
+});
+
 new WOW().init();
 
 function initMap() {
