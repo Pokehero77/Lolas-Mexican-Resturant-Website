@@ -259,6 +259,10 @@ function createCardHTML(item) {
 }
 
 function populateSection(container, items) {
+    if (!container) {
+        console.error('Container is null. Please check the ID.');
+        return; // Exit the function if the container is null
+    }
     items.forEach(item => {
         container.innerHTML += createCardHTML(item); // Use the new function to create card HTML
     });
