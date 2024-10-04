@@ -12,23 +12,23 @@
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 */
 
-const appetizers = document.getElementById('Appetizers');
-const salads = document.getElementById('Salads');
-const nachos = document.getElementById('Nachos');
-const beef = document.getElementById('Beef');
-const chicken = document.getElementById('Chicken');
-const pork = document.getElementById('Pork');
-const mixto = document.getElementById('Mixto');
-const burritoLovers = document.getElementById('Burrito Lovers');
-const chimichangas = document.getElementById('Chimichangas');
-const mixDelMar = document.getElementById('Mix del Mar');
-const quesadillas = document.getElementById('Quesadillas');
-const seafood = document.getElementById('Seafood');
-const lolasSpecials = document.getElementById('Lola\'s Specials');
-const fajitas = document.getElementById('Fajitas');
-const enchiladas = document.getElementById('Enchiladas');
-const kidsMenu = document.getElementById('Kids Menu');
-const sideOrders = document.getElementById('Side Orders');
+const appetizerContainer = document.getElementById('appetizer-container');
+const saladContainer = document.getElementById('salad-container');
+const nachosContainer = document.getElementById('nachos-container');
+const beefContainer = document.getElementById('beef-container');
+const chickenContainer = document.getElementById('chicken-container');
+const porkContainer = document.getElementById('pork-container');
+const mixtoContainer = document.getElementById('mixto-container');
+const burritoLoversContainer = document.getElementById('burrito-lovers-container');
+const chimichangasContainer = document.getElementById('chimichangas-container');
+const mixDelMarContainer = document.getElementById('mix-del-mar-container');
+const quesadillaContainer = document.getElementById('quesadilla-container');
+const seafoodContainer = document.getElementById('seafood-container');
+const lolasSpecialsContainer = document.getElementById('lolas-specials-container');
+const fajitasContainer = document.getElementById('fajitas-container');
+const enchiladasContainer = document.getElementById('enchiladas-container');
+const kidsMenuContainer = document.getElementById('kids-menu-container');
+const sideOrdersContainer = document.getElementById('side-orders-container');
 
 const menuItems = {
     appetizers: [
@@ -226,25 +226,6 @@ $(document).ready(function(){
     });
 });
 
-const appetizerContainer = document.getElementById('appetizer-container');
-const saladContainer = document.getElementById('salad-container');
-const nachosContainer = document.getElementById('nachos-container');
-const beefContainer = document.getElementById('beef-container');
-const chickenContainer = document.getElementById('chicken-container');
-const porkContainer = document.getElementById('pork-container');
-const mixtoContainer = document.getElementById('mixto-container');
-const burritoLoversContainer = document.getElementById('burrito-lovers-container');
-const chimichangasContainer = document.getElementById('chimichangas-container');
-const mixDelMarContainer = document.getElementById('mix-del-mar-container');
-const quesadillaContainer = document.getElementById('quesadilla-container');
-const seafoodContainer = document.getElementById('seafood-container');
-const lolasSpecialsContainer = document.getElementById('lolas-specials-container');
-const fajitasContainer = document.getElementById('fajitas-container');
-const enchiladasContainer = document.getElementById('enchiladas-container');
-const kidsMenuContainer = document.getElementById('kids-menu-container');
-const sideOrdersContainer = document.getElementById('side-orders-container');
-
-
 function createCardHTML(item) {
     return `
         <div class="col-md-2">
@@ -269,7 +250,13 @@ function populateSection(container, items) {
 }
 
 Object.keys(menuItems).forEach(category => {
-    const container = document.getElementById(`${category}-container`);
+    const container = document.getElementById(`${category}-content`);
+
+    if (!container) {
+        console.error(`Container not found for category: ${category}`);
+        return;  // Skip this iteration if container is null
+    }
+
     populateSection(container, menuItems[category]);
 });
 
