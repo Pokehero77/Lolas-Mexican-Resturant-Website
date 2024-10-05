@@ -228,7 +228,7 @@ $(document).ready(function(){
 
 function createCardHTML(item) {
     return `
-        <div class="col-md-3">
+        <div class="col-md-4">
             <div class="card bg-transparent border my-3 my-md-0">
                 <div class="card-body">
                     <h2 class="text-center mb-4"><a href="#" class="badge badge-primary">${item.price}</a></h2>
