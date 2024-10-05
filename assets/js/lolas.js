@@ -249,6 +249,16 @@ function populateSection(container, items) {
     });
 }
 
+// Create a mapping between camelCase keys and kebab-case HTML IDs
+const categoryIdMapping = {
+    burritoLovers: 'burrito-lovers',
+    mixDelMar: 'mix-del-mar',
+    quesadillas: 'quesadilla', // Check this is correct since your HTML has 'quesadilla-container'
+    lolasSpecials: 'lolas-specials',
+    kidsMenu: 'kids-menu',
+    sideOrders: 'side-orders' // If there's still an issue with this one
+};
+
 Object.keys(menuItems).forEach(category => {
     const formattedCategory = category
         .replace(/([A-Z])/g, '-$1')  // Add hyphen before uppercase letters
