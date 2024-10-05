@@ -31,7 +31,7 @@ const kidsMenuContainer = document.getElementById('kids-menu-container');
 const sideOrdersContainer = document.getElementById('side-orders-container');
 
 const menuItems = {
-    appetizers: [
+    appetizer: [
         { price: "$6.99", name: "Queso Fundido" },
         { price: "$4.19", name: "Chicken Nuggets" },
         { price: "$3.99", name: "French Fries" },
@@ -47,7 +47,7 @@ const menuItems = {
         { price: "$2.79", name: "Shredded Cheese" },
         { price: "$2.09", name: "Jalapeño Slices" },
     ], 
-    salads: [
+    salad: [
         { price: "$11.99", name: "Chicken Salad" },
         { price: "$13.29", name: "Shrimp Salad" },
         { price: "$11.99", name: "Ensalada Cancún" },
