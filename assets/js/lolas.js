@@ -250,6 +250,10 @@ function populateSection(container, items) {
 }
 
 Object.keys(menuItems).forEach(category => {
+    const formattedCategory = category
+        .replace(/([A-Z])/g, '-$1')  // Add hyphen before uppercase letters
+        .toLowerCase();              // Convert to lowercase
+
     const container = document.getElementById(`${category}-content`);
 
     if (!container) {
